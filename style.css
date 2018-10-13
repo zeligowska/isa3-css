@@ -1,12 +1,21 @@
-.container {
+.menu-container {
     background: #333;
     display: inline-block;
 }
 
-.container div {
+.menu-container div {
     width: 100%;
     text-align: center;
 }
+.page-container {
+    display: inline-block;
+}
+
+.page-container aside, article {
+    width: 100%;
+    text-align: center;
+}
+
 
 a {
     padding: 10px;
@@ -14,12 +23,31 @@ a {
     text-decoration: none;
 }
 
-.container div:hover {
+.menu-container div:hover {
     background: #555;
 }
 
 @media (min-width: 768px) {
-    .container {
+    .menu-container {
         display: flex;
     }
+    .page-container {
+        display: flex;
+    }
+
+    .page-container aside {
+        width: 30%;
+    }
+
+    .page-container article {
+        width: 70%;
+    }
+}
+
+aside {
+    background: salmon;
+}
+
+article {
+    background: skyblue;
 }
