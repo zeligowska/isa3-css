@@ -1,17 +1,19 @@
 .flex-container {
-    width: 150px;
+    border: red 1px dotted;
+    /* width: 130px; */
+    height: 300px;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    /* flex-flow: row-reverse wrap-reverse; */
+    justify-content: space-around;
+    align-items: baseline;
 }
 
 .flex-container div {
     border: black 1px solid;
     padding: 2px;
-    width: 15px;
-
-
-    
+    /* width: 18px;
+    height: 18px; */
+    text-align: center;
 }
 
 .color-green {
