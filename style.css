@@ -34,11 +34,9 @@ a {
     .page-container {
         display: flex;
     }
-
     .page-container aside {
         width: 30%;
     }
-
     .page-container article {
         width: 70%;
     }
