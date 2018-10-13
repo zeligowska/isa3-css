@@ -1,6 +1,14 @@
 .flex-container {
+    width: 150px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flex-container div {
+    border: black 1px solid;
+    padding: 2px;
+    width: 15px;
 }
 
 .color-green {
@@ -12,5 +20,5 @@
 }
 
 .color-blue {
-    background: blue;
+    background: skyblue;
 }
